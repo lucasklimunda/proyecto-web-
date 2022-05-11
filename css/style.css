@@ -38,7 +38,7 @@
 }
 
 .contenido-principal{
-    background-image:url(../imagenes/blob-scene-haikei.svg);
+    background-image:linear-gradient(to right,#599ad4,white);
     height: 100%;
 }
 
@@ -155,7 +155,7 @@ text-align: center;
     align-self: flex-end;
 }
 .contenido-principalnosotros{
-    background-image:url(../imagenes/blob-scene-haikei.svg);
+    background-image:linear-gradient(to right,#599ad4,white);
     display: grid;
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: repeat(3 1fr);
@@ -258,6 +258,46 @@ text-align: center;
     text-decoration: none;
 }
 
+.logo-facebook{
+    transition: transform 2s;
+}
+
+.logo-facebook:hover{
+    transform: scale(0.5);
+}
+
+.logo-instagram{
+    transition: transform 2s;
+}
+
+.logo-instagram:hover{
+    transform: scale(0.5);
+}
+
+.logo-youtube{
+    transition: transform 2s;
+}
+
+.logo-youtube:hover{
+    transform: scale(0.5);
+}
+
+.logo-sitioweb{
+   object-fit: cover;
+    animation-name: mundo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-style: groove;
+}
+
+@keyframes mundo{
+    0%{
+        transform: rotate(360deg)
+    }
+
+
+
+}
 /*Media Queries*/
 
 @media screen and (max-width: 1023px) {
@@ -270,7 +310,7 @@ text-align: center;
 .navegador__enlace{
     width: 15px;
 }
-    .logo-facebook{
+.logo-facebook{
     width: 22px;
 }
 .logo-instagram{
