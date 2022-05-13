@@ -4,35 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 	<title>nosotros</title>
 </head>
 <body>
-    <header>
-		<nav class="navegador">
-			
-			<img src="../imagenes/logotipoluz.PNG" alt="logotipo-luz-azul" class="navegador__logo">
-           
-			<ul class="nav-lista">
-				
-				<li><a class="navegador__enlace" href="../index.html">inicio</a></li>
-				<li><a class="navegador__enlace" href="nosotros.html">nosotros</a></li>
-				<li><a class="navegador__enlace" href="productos.html">productos</a></li>
-				<li><a class="navegador__enlace" href="video.html">video</a></li>
-				<li><a class="navegador__enlace" href="contacto.html">contacto</a></li>
-
+	<header class="header">
 		
-			</ul>
-        
-	     	<a href="#" class="header__open"> <span class="jam jam-menu"></span> </a>
-			<div> 
-				<img src="../imagenes/facebook.PNG" alt="logo-facebook" class="logo-facebook" >
+		<nav class="navbar navbar-expand-lg navbar-dark bg- justify-content-between">
+		
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="../imagenes/logotipoluz.PNG" alt="logotipo-luz-azul" class="navegador__logo"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="nosotros.html">nosotros</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="productos.html">productos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="video.html">video</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="contacto.html">contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			  <div class="social"> 
+				<img src="../imagenes/facebook.PNG" alt="logo-facebook" class="logo-facebook">
 				<img src="../imagenes/instagram.PNG" alt="logo-instagram" class="logo-instagram">
 				<img src="../imagenes/youtube.PNG" alt="logo-youtube" class="logo-youtube">
 
 			</div>
-		</nav>
+			</div>
+		  </nav> 
+
 	</header>
 <main class="contenido-principal"> 
    
@@ -50,43 +63,44 @@
 
 <div class="reconocimientos">
 
-<div class="cliente1">
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="col">
+		  <div class="card h-100">
+			<img src="../imagenes/usuario.PNG" alt="usuario1"  class="card-img-top">
+			<div class="card-body">
+			  <h5 class="card-title">Donato De Santis</h5>
+			  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione similique tempore optio iste molestias repellat! Itaque, est officia qui quas facilis accusantium voluptatum vel asperiores voluptatibus neque, perferendis ab? Ut necessitatibus sapiente nulla harum neque aut tempora, obcaecati numquam, delectus aliquam esse assumenda in explicabo provident rerum nostrum saepe tempore.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="../imagenes/usuario.PNG" alt="usuario2" class="card-img-top">
+			<div class="card-body">
+			  <h5 class="card-title">German Martiegui</h5>
+			  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione similique tempore optio iste molestias repellat! Itaque, est officia qui quas facilis accusantium voluptatum vel asperiores voluptatibus neque, perferendis ab? Ut necessitatibus sapiente nulla harum neque aut tempora, obcaecati numquam, delectus aliquam esse assumenda in explicabo provident rerum nostrum saepe tempore.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="../imagenes/usuario.PNG" alt="usuario3" class="card-img-top">
+			<div class="card-body">
+			  <h5 class="card-title">Betular</h5>
+			  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repellendus eligendi cupiditate ullam. Cumque unde quae obcaecati voluptatem nihil voluptates natus. Laudantium a dolor sit magnam quos officia quaerat quia. Modi hic quasi tempore dolorum? Facilis magni eos voluptates, vel porro expedita maxime placeat laboriosam explicabo magnam ullam suscipit saepe.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
 			
-	<img src="../imagenes/usuario.PNG"  width="50 px" height="50px" alt="usuario1" class="reconocimientos__imagencliente" > 
-	
-	<h3 class="titulo__cliente1">German Martiegui</h3>
-	
-   <p class="parrafo__cliente1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione similique tempore optio iste molestias repellat! Itaque, est officia qui quas facilis accusantium voluptatum vel asperiores voluptatibus neque, perferendis ab? Ut necessitatibus sapiente nulla harum neque aut tempora, obcaecati numquam, delectus aliquam esse assumenda in explicabo provident rerum nostrum saepe tempore.</p>
-</div>
-
-<div class="cliente2">
-
- <img src="../imagenes/usuario.PNG" width="50 px" height="50px" alt="usuario1" class="reconocimientos__imagencliente" > 
-
- <h3> Donato De Santis</h3>
-
- <p class="parrafo__cliente2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione similique tempore optio iste molestias repellat! Itaque, est officia qui quas facilis accusantium voluptatum vel asperiores voluptatibus neque, perferendis ab? Ut necessitatibus sapiente nulla harum neque aut tempora, obcaecati numquam, delectus aliquam esse assumenda in explicabo provident rerum nostrum saepe tempore.</p>
-
-
-</div>
-
-<div class="cliente3">
-
- <img src="../imagenes/usuario.PNG" width="50 px" height="50px" alt="usuario1" class="reconocimientos__imagencliente" > 
-
- <h3> Betular </h3> 
-
- <p class="parrafo__cliente3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repellendus eligendi cupiditate ullam. Cumque unde quae obcaecati voluptatem nihil voluptates natus. Laudantium a dolor sit magnam quos officia quaerat quia. Modi hic quasi tempore dolorum? Facilis magni eos voluptates, vel porro expedita maxime placeat laboriosam explicabo magnam ullam suscipit saepe.</p>
-</div>
-
-<div class="cliente4">
-	<img src="../imagenes/usuario.PNG" width="50 px" height="50px" alt="usuario1" class="reconocimientos__imagencliente" > 
-	
-	<h3> Christophe Krywonis</h3>
-	
-	<p class="parrafo__cliente4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, a distinctio? Itaque consequatur molestias quisquam voluptatum ipsa nesciunt sed deleniti inventore voluptates enim voluptatem, quae temporibus, tenetur tempora non facere dolore in molestiae. Inventore, pariatur incidunt laborum ab aperiam provident delectus dignissimos nulla magnam autem doloribus. Non voluptate soluta nihil.</p>
-
-</div>
+		  </div>
+		</div>
 
 </div>
 </main>   
@@ -121,7 +135,7 @@
 	<p class="grid__footerderechos">Luz Azul - Panadería | Todos los derechos reservados @ 2022</p>
 
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

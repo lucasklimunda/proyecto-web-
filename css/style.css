@@ -6,6 +6,8 @@
 
 .header{
     width: 100%;
+    background-color:#599ad4;
+
 }
 
 
@@ -27,9 +29,15 @@
     display: flex;
     justify-content: space-between;
     gap: 65px;
-   
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-inline-start: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
     
 }
+
+
 .navegador__enlace{
     color: white;
     text-decoration: none;
@@ -37,13 +45,26 @@
    
 }
 
+.container-fluid{
+    
+    background-color:#599ad4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.nav-item{
+    color: white;  
+}
+
+
+
 .contenido-principal{
     background-image:linear-gradient(to right,#599ad4,white);
     height: 100%;
 }
 
 .contenido__imagenfondo{
-   height: 100vh;
+   height: 100%;
 }
 
 .titulo__reconocimiento{
@@ -112,6 +133,10 @@
     
 }
 
+.card-img-top{
+    width: 50px;
+    height: 50px;
+}
 
 .footer{
 height: 100%;
