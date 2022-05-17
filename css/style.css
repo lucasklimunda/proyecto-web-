@@ -347,7 +347,7 @@ text-align: center;
 }
 
 .contenido__imagenfondo{
-    width: 768px;
+    width: 100%;
 }
 .titulo__reconocimiento{
     font-size: 20px;
@@ -438,7 +438,7 @@ text-align: center;
 }
 
 .contenido__imagenfondo{
-    width: 320px;
+    width: 100%;
     
 }
 
