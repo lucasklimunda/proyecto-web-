@@ -1,0 +1,41 @@
+.footer{
+    height: 100%;
+    background-color: $color-principal;
+    display: grid;
+    grid-template-columns: repeat(7 1fr);
+    grid-template-rows: 60px 100px 40px;
+    grid-template-areas: 
+    "ele1 ele1 ele1 ele1 ele1 ele1" /*fila1*/ 
+    "ele2 ele3 ele4 ele5 ele5 ele5" /*fila2*/
+    "ele6 ele6 ele6 ele6 ele6 ele6"; /*fila3*/
+    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    }
+    
+    .grid__footerlogo{
+        grid-area: ele1;
+        
+    }
+    
+    .grid__footerdirreccion{
+        grid-area: ele2;
+    }
+    
+    .grid__footertel{
+        grid-area: ele3;
+    }
+    
+    .grid__footersitioweb{
+        grid-area: ele4;
+    }
+    
+    .grid__footermail{
+        grid-area: ele5;
+    }
+    
+    .grid__footerderechos{
+        grid-area: ele6;
+        align-self: flex-end;
+    }

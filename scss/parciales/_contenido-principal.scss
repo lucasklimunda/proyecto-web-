@@ -1,0 +1,24 @@
+.contenido-principal{
+    background-image:linear-gradient(to right,$color-principal,white);
+    height: 100%;
+}
+
+.contenido__imagenfondo{
+   height: 100%;
+}
+
+.titulo__reconocimiento{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.reconocimientos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-img-top{
+    width: 50px;
+    height: 50px;
+}
