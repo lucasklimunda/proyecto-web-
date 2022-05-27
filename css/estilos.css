@@ -207,6 +207,7 @@
 }
 
 .logo-facebook {
+  text-decoration: none;
   transition: transform 2s;
 }
 
@@ -215,6 +216,7 @@
 }
 
 .logo-instagram {
+  text-decoration: none;
   transition: transform 2s;
 }
 
@@ -223,6 +225,7 @@
 }
 
 .logo-youtube {
+  text-decoration: none;
   transition: transform 2s;
 }
 
