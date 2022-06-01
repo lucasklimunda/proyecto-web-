@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*Este es mi archivo principal de SASS*/
+/*map get aplicado en contenido productos*/
+/*MIXING aplicado en mediaquerys*/
 * {
   padding: 0;
   margin: 0;
@@ -167,20 +169,23 @@
 
 .lunch {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 18px;
+  font-family: 18px;
+  font-size: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style: none;
 }
 
 .pasteleria {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 18px;
+  font-family: 18px;
+  font-size: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style: none;
 }
 
 .sanguches {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 18px;
+  font-family: 18px;
+  font-size: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style-type: none;
 }
 
 .titulo-contacto {
@@ -207,7 +212,6 @@
 }
 
 .logo-facebook {
-  text-decoration: none;
   transition: transform 2s;
 }
 
@@ -216,7 +220,6 @@
 }
 
 .logo-instagram {
-  text-decoration: none;
   transition: transform 2s;
 }
 
@@ -225,7 +228,6 @@
 }
 
 .logo-youtube {
-  text-decoration: none;
   transition: transform 2s;
 }
 
@@ -349,6 +351,33 @@
   }
   .titulo__reconocimientonosotros {
     font-size: 25px;
+  }
+  /*Mobile first página productos*/
+  .titulo-productos {
+    font-size: 18px;
+  }
+  .imagenLunch {
+    height: 100%;
+    width: 100%;
+  }
+  .list-unstyled {
+    font-size: 16px;
+  }
+  .pasteleria {
+    height: 100%;
+    width: 100%;
+  }
+  .sandwiches {
+    height: 100%;
+    width: 100%;
+  }
+  /*Mobile first página video */
+  .titulo__video {
+    font-size: 18px;
+  }
+  .video__institucional {
+    height: 100%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

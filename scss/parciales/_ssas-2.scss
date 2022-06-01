@@ -1,2 +1,15 @@
-/*mapa*/
+/*map get aplicado en contenido productos*/
 
+$estilosProductos:(
+  centro: center,
+  tFuente: 18px,
+  vinetas: none,
+);
+
+/*MIXING aplicado en mediaquerys*/
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+ 

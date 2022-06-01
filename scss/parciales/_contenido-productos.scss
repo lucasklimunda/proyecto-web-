@@ -4,20 +4,25 @@
 }
 
 .lunch{
-    text-align: center;
-    font-family: $font-family;
-    font-size: 18px;
+    text-align: map-get($estilosProductos, centro);
+    font-family: map-get($estilosProductos, tFuente);
+    font-size: $font-family;
+    list-style: map-get($estilosProductos, vinetas);
 
 }
 
 .pasteleria{
-    text-align: center;
-    font-family: $font-family;
-    font-size: 18px;
+    text-align: map-get($estilosProductos, centro);
+    font-family: map-get($estilosProductos, tFuente);
+    font-size: $font-family;
+    list-style: map-get($estilosProductos, vinetas);
 }
 
 .sanguches{
-    text-align: center;
-    font-family: $font-family;
-    font-size: 18px;
+    text-align: map-get($estilosProductos, centro);
+    font-family: map-get($estilosProductos, tFuente);
+    font-size: $font-family;
+    list-style-type: map-get($estilosProductos, vinetas);
 }
+
+

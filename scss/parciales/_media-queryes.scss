@@ -134,4 +134,39 @@
     .titulo__reconocimientonosotros{
         font-size: 25px;
     }
-    }
+    
+    /*Mobile first página productos*/
+
+.titulo-productos{
+    font-size: 18px;
+}
+
+.imagenLunch{
+    @include sizes(100%, 100%)
+}
+
+.list-unstyled{
+    font-size: 16px;
+}
+
+.pasteleria{
+    @include sizes (100%, 100%)
+}
+
+.sandwiches{
+    @include sizes (100%, 100%) 
+}
+
+
+/*Mobile first página video */
+.titulo__video{
+    font-size: 18px;
+    
+}
+
+.video__institucional{
+    @include sizes (100%, 100%)
+    
+}
+}
+
