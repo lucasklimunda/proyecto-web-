@@ -18,16 +18,15 @@
     font-family:$font-family;
     grid-area: ele1;
 
-    .parrafo_nosotros{
-        font-size: 20px;
-        margin: 20px;
-        font-family: $font-family;
-        grid-area: ele2;
-    }
     
 }
 
-
+.parrafo_nosotros{
+    font-size: 20px;
+    margin: 20px;
+    font-family: $font-family;
+    grid-area: ele2;
+}
 
 .titulo__reconocimientonosotros{
     font-size: 35px;

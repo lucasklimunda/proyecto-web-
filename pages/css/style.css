@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color:#599ad4;
+
+}
+
+
+
+.navegador{
+   
+    background-color:#599ad4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-lista{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-inline-start: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    
+}
+
+
+.navegador__enlace{
+    color: white;
+    text-decoration: none;
+    
+   
+}
+
+.container-fluid{
+    
+    background-color:#599ad4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.nav-item{
+    color: white;  
+}
+
+
+
+.contenido-principal{
+    background-image:linear-gradient(to right,#599ad4,white);
+    height: 100%;
+}
+
+.contenido__imagenfondo{
+   height: 100%;
+}
+
+.titulo__reconocimiento{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.reconocimientos{
+    display: flex;
+    flex-direction: row;
+}
+.cliente1{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+
+.parrafo__cliente1{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+
+.cliente2{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+.parrafo__cliente2{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.cliente3{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+    border: 2px solid black;
+}
+.parrafo__cliente3{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.cliente4{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px;
+    border: 2px solid black;
+}
+.parrafo__cliente4{
+    padding: 8px 8px 8px 8px;
+    border: 1px solid black;
+    
+}
+
+.card-img-top{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+height: 100%;
+background-color: #599ad4;
+display: grid;
+grid-template-columns: repeat(7 1fr);
+grid-template-rows: 60px 100px 40px;
+grid-template-areas: 
+"ele1 ele1 ele1 ele1 ele1 ele1" /*fila1*/ 
+"ele2 ele3 ele4 ele5 ele5 ele5" /*fila2*/
+"ele6 ele6 ele6 ele6 ele6 ele6"; /*fila3*/
+justify-items: center;
+justify-content: space-around;
+text-align: center;
+
+}
+
+.grid__footerlogo{
+    grid-area: ele1;
+    
+}
+
+.grid__footerdirreccion{
+    grid-area: ele2;
+}
+
+.grid__footertel{
+    grid-area: ele3;
+}
+
+.grid__footersitioweb{
+    grid-area: ele4;
+}
+
+.grid__footermail{
+    grid-area: ele5;
+}
+
+.grid__footerderechos{
+    grid-area: ele6;
+    align-self: flex-end;
+}
+.contenido-principalnosotros{
+    background-image:linear-gradient(to right,#599ad4,white);
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas: 
+    "ele1 ele1 ele1"
+    "ele2 ele2 ele2"
+    "ele3 ele3 ele3";
+    place-items: center;
+
+}
+
+
+.titulo__nosotros{
+    text-align: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-area: ele1;
+}
+
+.parrafo_nosotros{
+    font-size: 20px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-area: ele2;
+}
+
+.titulo__reconocimientonosotros{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagen__nosotros{
+
+    border: solid 6px;
+    border-style: double;
+    grid-area: ele3;
+}
+
+.contenido-principalvideo{
+    display: grid;
+    place-items: center;
+}
+
+.titulo__video{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.video__institucional{
+    margin: 40px;  
+}
+
+.titulo-productos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lunch{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+
+}
+
+.pasteleria{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.sanguches{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.titulo-contacto{
+    text-align: center;
+}
+
+.subtitulo-contacto{
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    width: 100vw;
+    height:100vh;
+   display: grid;
+   place-items: center;
+   
+   
+}
+.header__open{
+    display: none;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-facebook{
+    transition: transform 2s;
+}
+
+.logo-facebook:hover{
+    transform: scale(0.5);
+}
+
+.logo-instagram{
+    transition: transform 2s;
+}
+
+.logo-instagram:hover{
+    transform: scale(0.5);
+}
+
+.logo-youtube{
+    transition: transform 2s;
+}
+
+.logo-youtube:hover{
+    transform: scale(0.5);
+}
+
+.logo-sitioweb{
+   object-fit: cover;
+    animation-name: mundo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-style: groove;
+}
+
+@keyframes mundo{
+    0%{
+        transform: rotate(360deg)
+    }
+
+
+
+}
+/*Media Queries*/
+
+@media screen and (max-width: 1023px) {
+.header{
+        width: 100%;
+    }
+.navegador__logo{
+        width: 110px;
+    }
+.navegador__enlace{
+    width: 15px;
+}
+.logo-facebook{
+    width: 22px;
+}
+.logo-instagram{
+    width: 22px;
+}
+
+.logo-youtube{
+    width: 22px;
+}
+
+.contenido__imagenfondo{
+    width: 100%;
+}
+.titulo__reconocimiento{
+    font-size: 20px;
+}
+
+.cliente1{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 7px 7px 7px 7px;
+    margin: 44px;
+    border: 2px solid black;
+    font-size: 9px;
+}
+
+.cliente2{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 7px 7px 7px 7px;
+    margin: 44px;
+    border: 2px solid black;
+    font-size: 9px;
+}
+
+.cliente3{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 7px 7px 7px 7px;
+    margin: 44px;
+    border: 2px solid black;
+    font-size: 9px;
+}
+
+.cliente4{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 7px 7px 7px 7px;
+    margin: 44px;
+    border: 2px solid black;
+    font-size: 9px;
+}
+
+.grid__footerlogo{
+    width: 170px;
+}
+
+
+
+}
+
+
+/*vista celular*/
+
+
+@media screen and (max-width: 600px) {
+
+.nav-lista{
+    display: none;
+
+}
+
+.navegador{
+   
+    background-color:#599ad4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.header__open{
+    display: block;
+ 
+
+}
+.logo-facebook{
+    width: 10px;
+}
+.logo-instagram{
+    width: 10px;
+}
+
+.logo-youtube{
+    width: 15px;
+}
+
+.contenido__imagenfondo{
+    width: 100%;
+    
+}
+
+.cliente1{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 3px;
+}
+
+.cliente2{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 3px;
+}
+
+.cliente3{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 3px;
+}
+
+.cliente4{
+    background-color: white;
+    width: 200px;
+    height: 256px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 3px;
+}
+.reconocimientos__imagencliente{
+    width: 14px;
+}
+
+.grid__footerlogo{
+    width: 150px;
+}
+
+.logo-direccion{
+    width: 70px;
+}
+.logo-telefono{
+    width: 50px;
+}
+.logo-sitioweb{
+    width: 50px;
+}
+
+.logo-mail{
+    width: 64px;
+}
+.grid__footerdireccion{
+    font-size: 6px;
+}
+
+.grid__footermail{
+    font-size: 6px;
+}
+
+.grid__footersitioweb{
+    font-size: 6px;
+}
+
+.grid__footertel{
+    font-size: 6px;
+}
+
+.grid__footerderechos{
+    font-size: 8px;
+}
+
+/*Mobile first página nosotros*/ 
+
+.titulo__nosotros{
+    font-size: 30px;
+
+}
+.parrafo_nosotros{
+    font-size: 15px;
+}
+
+.imagen__nosotros{
+    height: 200px;
+}
+
+.titulo__reconocimientonosotros{
+    font-size: 25px;
+}
+}
+

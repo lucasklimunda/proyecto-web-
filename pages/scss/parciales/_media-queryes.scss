@@ -1,0 +1,172 @@
+/*Media Queryes*/
+
+@media screen and (max-width: 1023px) {
+    .header{
+            width: 100%;
+        }
+    .navegador__logo{
+            width: 110px;
+        }
+    .navegador__enlace{
+        width: 15px;
+    }
+    .logo-facebook{
+        width: 22px;
+    }
+    .logo-instagram{
+        width: 22px;
+    }
+    
+    .logo-youtube{
+        width: 22px;
+    }
+    
+    .contenido__imagenfondo{
+        width: 100%;
+    }
+    .titulo__reconocimiento{
+        font-size: 20px;
+    }
+    
+    
+    .grid__footerlogo{
+        width: 170px;
+    }
+    
+    }
+    
+    
+    /*vista celular*/
+    
+    
+    @media screen and (max-width: 600px) {
+    
+    .nav-lista{
+        display: none;
+    
+    }
+    
+    .navegador{
+       
+        background-color: $color-principal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    
+    .header__open{
+        display: block;
+     
+    
+    }
+    .logo-facebook{
+        width: 10px;
+    }
+    .logo-instagram{
+        width: 10px;
+    }
+    
+    .logo-youtube{
+        width: 15px;
+    }
+    
+    .contenido__imagenfondo{
+        width: 100%;
+        
+    }
+    
+    .reconocimientos__imagencliente{
+        width: 14px;
+    }
+    
+    .grid__footerlogo{
+        width: 150px;
+    }
+    
+    .logo-direccion{
+        width: 70px;
+    }
+    .logo-telefono{
+        width: 50px;
+    }
+    .logo-sitioweb{
+        width: 50px;
+    }
+    
+    .logo-mail{
+        width: 64px;
+    }
+    .grid__footerdireccion{
+        font-size: 6px;
+    }
+    
+    .grid__footermail{
+        font-size: 6px;
+    }
+    
+    .grid__footersitioweb{
+        font-size: 6px;
+    }
+    
+    .grid__footertel{
+        font-size: 6px;
+    }
+    
+    .grid__footerderechos{
+        font-size: 8px;
+    }
+    
+    /*Mobile first página nosotros*/ 
+    
+    .titulo__nosotros{
+        font-size: 30px;
+    
+    }
+    .parrafo_nosotros{
+        font-size: 15px;
+    }
+    
+    .imagen__nosotros{
+        height: 200px;
+    }
+    
+    .titulo__reconocimientonosotros{
+        font-size: 25px;
+    }
+    
+    /*Mobile first página productos*/
+
+.titulo-productos{
+    font-size: 18px;
+}
+
+.imagenLunch{
+    @include sizes(100%, 100%)
+}
+
+.list-unstyled{
+    font-size: 16px;
+}
+
+.pasteleria{
+    @include sizes (100%, 100%)
+}
+
+.sandwiches{
+    @include sizes (100%, 100%) 
+}
+
+
+/*Mobile first página video */
+.titulo__video{
+    font-size: 18px;
+    
+}
+
+.video__institucional{
+    @include sizes (100%, 100%)
+    
+}
+}
+
