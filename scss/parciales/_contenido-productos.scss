@@ -11,18 +11,30 @@
 
 }
 
+.imagenLunch{
+    max-width: 100%;
+}
+
 .pasteleria{
     text-align: map-get($estilosProductos, centro);
     font-family: map-get($estilosProductos, tFuente);
     font-size: $font-family;
     list-style: map-get($estilosProductos, vinetas);
+    max-width: 100%;
 }
+
 
 .sanguches{
     text-align: map-get($estilosProductos, centro);
     font-family: map-get($estilosProductos, tFuente);
     font-size: $font-family;
     list-style-type: map-get($estilosProductos, vinetas);
+}
+
+
+
+.sandwiches{
+    max-width: 100%;
 }
 
 

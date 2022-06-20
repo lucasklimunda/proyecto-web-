@@ -6,8 +6,9 @@
 .titulo__video{
     text-align: center;
     font-family: $font-family;
+   
+    .video__institucional{
+        margin: 40px;  
+    }
 }
 
-.video__institucional{
-    margin: 40px;  
-}

@@ -1,18 +1,18 @@
 .titulo-contacto{
     text-align: center;
 
-    .subtitulo-contacto{
-        text-align: center;
-    }
+
 }
 
-
+.subtitulo-contacto{
+    text-align: center;
+}
 
 .formulario{
     text-align: center;
-    width: 100vw;
+    max-width: 100vw;
     height:100vh;
-   display: grid;
+    display: grid;
    place-items: center;
    
    

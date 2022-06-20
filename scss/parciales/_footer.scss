@@ -16,27 +16,26 @@
     
     .grid__footerlogo{
         grid-area: ele1;
-
-        &__footerdirreccion{
-            grid-area: ele2;
-        }
-        
-        &__footertel{
-            grid-area: ele3;
-        }
-        
-        &__footersitioweb{
-            grid-area: ele4;
-        }
-        
-        &__footermail{
-            grid-area: ele5;
-        }
-        
-        &__footerderechos{
-            grid-area: ele6;
-            align-self: flex-end;
-        }
         
     }
     
+    .grid__footerdirreccion{
+        grid-area: ele2;
+    }
+    
+    .grid__footertel{
+        grid-area: ele3;
+    }
+    
+    .grid__footersitioweb{
+        grid-area: ele4;
+    }
+    
+    .grid__footermail{
+        grid-area: ele5;
+    }
+    
+    .grid__footerderechos{
+        grid-area: ele6;
+        align-self: flex-end;
+    }
